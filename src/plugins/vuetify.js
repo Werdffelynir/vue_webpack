@@ -28,17 +28,20 @@ import Vuetify, {
 } from 'vuetify/lib';
 import { Ripple } from 'vuetify/lib/directives';
 import colors from 'vuetify/lib/util/colors'
+
 import 'vuetify/dist/vuetify.css';
+import "vue-material-design-icons/styles.css";
 
 import MenuIcon from "vue-material-design-icons/Menu.vue"
 import DiskIcon from "vue-material-design-icons/Disc.vue"
 import ArrowRightBoldIcon from "vue-material-design-icons/ArrowRightBold.vue"
-import "vue-material-design-icons/styles.css";
+import FileOutlineIcon from "vue-material-design-icons/FileOutline.vue"
 
 const iconsComponents = {
     MenuIcon,
     DiskIcon,
     ArrowRightBoldIcon,
+    FileOutlineIcon,
 };
 
 
